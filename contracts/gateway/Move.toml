@@ -1,0 +1,9 @@
+[package]
+name = "gateway"
+version = "1.0.0"
+
+[addresses]
+gateway = "0x3255e69d6704839f7a125debe39dba6529bfe203b4a2dae3132a427b376f9932"
+
+[dependencies]
+AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects/", rev = "aptos-cli-v2.0.2" }
